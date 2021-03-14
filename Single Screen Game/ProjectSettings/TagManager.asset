@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Interactions
+    uniqueID: 3309990491
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

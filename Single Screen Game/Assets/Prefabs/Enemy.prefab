@@ -93,9 +93,9 @@ GameObject:
   - component: {fileID: 2543553760722536945}
   - component: {fileID: 2543553760722536911}
   - component: {fileID: 2543553760722536906}
-  - component: {fileID: 2543553760722536910}
   - component: {fileID: 2543553760722536909}
   - component: {fileID: 2543553760722536908}
+  - component: {fileID: 1299239347291119501}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -159,22 +159,6 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 64
---- !u!58 &2543553760722536910
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2543553760722536907}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.05}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!114 &2543553760722536909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,6 +207,22 @@ MonoBehaviour:
     m_Bits: 8
   manager: {fileID: 0}
   scoreToGive: 100
+--- !u!58 &1299239347291119501
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2543553760722536907}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.053868532}
+  serializedVersion: 2
+  m_Radius: 0.51197076
 --- !u!1 &2543553760930945300
 GameObject:
   m_ObjectHideFlags: 0
