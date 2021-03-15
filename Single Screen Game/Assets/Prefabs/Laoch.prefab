@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4844279201834621484}
   - component: {fileID: 4844279201834621487}
   - component: {fileID: 4844279201834621486}
-  - component: {fileID: 4844279201834621485}
+  - component: {fileID: 3301223615203203996}
   m_Layer: 3
-  m_Name: Player
+  m_Name: Laoch
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -178,8 +178,8 @@ MonoBehaviour:
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!58 &4844279201834621485
-CircleCollider2D:
+--- !u!70 &3301223615203203996
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -191,9 +191,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.52
+  m_Offset: {x: 0.0072391033, y: 0.15794408}
+  m_Size: {x: 0.4855218, y: 1.4627764}
+  m_Direction: 0
 --- !u!1 &4844279202265304478
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4844279202265304478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.066, z: 0}
+  m_LocalPosition: {x: 0, y: -0.081, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4844279201617384345}
@@ -238,9 +238,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.01}
+  m_Offset: {x: 0.010134637, y: -0.28073943}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.2393952
 --- !u!1 &4844279202726229725
 GameObject:
   m_ObjectHideFlags: 0
