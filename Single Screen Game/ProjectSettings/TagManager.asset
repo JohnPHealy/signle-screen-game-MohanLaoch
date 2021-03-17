@@ -39,9 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: Interactions
     uniqueID: 3309990491
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: Ground_Walls
+    uniqueID: 3244731731
     locked: 0

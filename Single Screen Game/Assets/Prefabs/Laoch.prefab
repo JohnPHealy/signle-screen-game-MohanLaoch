@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 233024113dc6ca4468dbbeba414f5233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 100
+  moveSpeed: 85
   maxSpeed: 100
   jumpForce: 50
   groundCheck: {fileID: 4844279202265304476}
