@@ -8,8 +8,8 @@ public class PlayerCombat : MonoBehaviour
   [SerializeField] private Collider2D playerCheck;
   [SerializeField] private LayerMask playerLayers;
   [SerializeField] private GameManager manager;
-  [SerializeField] private int scoreToGive = 100;
-
+  [SerializeField] private int scoreToGive = 3;
+  
   private void Update()
   {
     if (playerCheck.IsTouchingLayers(playerLayers))
