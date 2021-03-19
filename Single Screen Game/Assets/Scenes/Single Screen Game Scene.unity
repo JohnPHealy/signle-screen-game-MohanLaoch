@@ -771,7 +771,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.0227156, y: 0.2395122}
+  m_Offset: {x: 3.0227156, y: -0.23915124}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -782,7 +782,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.4276876, y: 2.5745301}
+  m_Size: {x: 7.4276876, y: 3.531857}
   m_EdgeRadius: 0
 --- !u!4 &270626476
 Transform:
@@ -1238,11 +1238,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1525020149848038294, guid: 30439e52abcf147429802909d2313d2d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.49
+      value: -12.48
       objectReference: {fileID: 0}
     - target: {fileID: 1525020149848038294, guid: 30439e52abcf147429802909d2313d2d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.5
+      value: 12.59
       objectReference: {fileID: 0}
     - target: {fileID: 1525020149848038294, guid: 30439e52abcf147429802909d2313d2d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1546,7 +1546,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2376,7 +2376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 563194035}
-  parallaxModifier: 0.0001
+  parallaxModifier: 0.0005
 --- !u!64 &818337689
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44801,11 +44801,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1203811907177117574, guid: 892ae406ebf9a7f448d4a5b3354f0cc4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.53
+      value: -9.54
       objectReference: {fileID: 0}
     - target: {fileID: 1203811907177117574, guid: 892ae406ebf9a7f448d4a5b3354f0cc4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.48
+      value: 17.52
       objectReference: {fileID: 0}
     - target: {fileID: 1203811907177117574, guid: 892ae406ebf9a7f448d4a5b3354f0cc4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48071,7 +48071,7 @@ MonoBehaviour:
   m_Follow: {fileID: 563194035}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5
+    OrthographicSize: 7
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -48187,11 +48187,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543553760722536945, guid: 725667be93beec44a9750155d8c60cae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.638784
+      value: -12.54
       objectReference: {fileID: 0}
     - target: {fileID: 2543553760722536945, guid: 725667be93beec44a9750155d8c60cae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.5
+      value: 17.61
       objectReference: {fileID: 0}
     - target: {fileID: 2543553760722536945, guid: 725667be93beec44a9750155d8c60cae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54860,11 +54860,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8613956528055347136, guid: 6d4250825a7e9334290865bc5bb1b001, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.5
+      value: -16.47
       objectReference: {fileID: 0}
     - target: {fileID: 8613956528055347136, guid: 6d4250825a7e9334290865bc5bb1b001, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.49
+      value: 17.54
       objectReference: {fileID: 0}
     - target: {fileID: 8613956528055347136, guid: 6d4250825a7e9334290865bc5bb1b001, type: 3}
       propertyPath: m_LocalPosition.z
